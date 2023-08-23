@@ -14,7 +14,7 @@
 
 3. Findout toal number of duplicate Characters in the statement:
 
-4.   Step 1: create a string
+    Step 1: create a string
 
          str="madam"
 
@@ -34,5 +34,35 @@
 
          dup.append(i)
          print(dup)
+   
+5. Findout total number of words present in the statement:
+
+     Step 1: Enter a string and store it ina variable
+
+           str ="god is great"
+
+     Step 2: character count variable is initialized to zero and word count variable is initialized to 1.
+
+           char=0
+           word=1
+
+     Step 3: for loop is used to traverse through character in a string
+
+           for i in str:
+
+     Step 4: The character count is increamented each time and the word count is increamented when the space is encountered.
+
+            char=char+1
+            if(i==' '):
+               word=word+1
+       
+     Step 5: Print the total no of char and words present in the string.
+
+             print(char)
+             print(word)
+     
+   
+
+   
         
       
