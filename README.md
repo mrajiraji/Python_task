@@ -82,6 +82,19 @@
  
                  else:
                      dup_count = dup_count+1
+
+6. Reverse the characters present in the statement:
+   
+     Step 1: Enter a string and store into one variable. create one empty string.
+
+              str = "hello"
+              empty_str = " "
+
+    Step 2: Used for loop to traverse the string into character. 
+
+              for i in str:
+                 empty_str = i+empty_str
+              print(empty_str)
    
      
    
