@@ -95,7 +95,17 @@
               for i in str:
                  empty_str = i+empty_str
               print(empty_str)
-   
+
+7. Reverse the word present in the statement:
+
+    Step 1: Enter a string and store into variable.create one empty string to store the reversed word
+
+              str = "hi welcome"
+              str1 = str.split()
+              empt_str = ""
+              for i in str1:
+                   empt_str = i + "" +empt_str
+              print(empt_str)
      
    
 
