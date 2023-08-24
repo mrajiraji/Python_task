@@ -35,7 +35,7 @@
          dup.append(i)
          print(dup)
    
-5. Findout total number of words present in the statement:
+4. Findout total number of words present in the statement:
 
      Step 1: Enter a string and store it ina variable
 
@@ -60,6 +60,29 @@
 
              print(char)
              print(word)
+
+5. Findout toal number of duplicate wordsin the statement:
+
+     Step 1: Enter the string and store it in one variable. Split the stored variable and store it into another variable.
+             create an empty list to store the string and assign duplicate count value as 0.
+
+             str = "i am not a robot to do all i am human"
+             str1 = str.split()
+             dup = []
+             dup_count = 0
+
+     Step 2: For loop is used to traverse the spiltted string. And check if the word already not present in duplicate list append the
+             i value into the list.
+
+             for i in str1:
+                 if i not in dup:
+                     dup.append(i)
+
+     Step 3: Otherwise increase the count of duplicate value.
+ 
+                 else:
+                     dup_count = dup_count+1
+   
      
    
 
