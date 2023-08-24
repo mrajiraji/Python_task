@@ -106,6 +106,21 @@
               for i in str1:
                    empt_str = i + "" +empt_str
               print(empt_str)
+
+8. Form a new statement from the reversed words:
+
+           reversed_words  = "ognam tae"
+           new_statement = reversed_words
+           print("New statement from reversed words:", new_statement)
+
+9. Remove the duplicate characters from the latest statement:
+
+           reversed_words  = "ognam tae"
+           emp = ""
+           for i in reversed_words:
+               if i not in emp:
+                  emp+=i
+           print(emp)   
      
    
 
