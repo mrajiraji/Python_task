@@ -120,7 +120,19 @@
            for i in reversed_words:
                if i not in emp:
                   emp+=i
-           print(emp)   
+           print(emp)  
+
+
+#######################################################################################################################################################################
+
+                                                           Task 2: 
+Write a Python program to validate the entered email address if the email is valid then write into a file. Continue this operation until uses says No/exit. 
+If user says Yes continue Validating emails and writing into file
+If user says No then display all the email IDs from the file.
+Note: Regex should be for validation.
+
+#########################################################################################################################################################################
+
      
    
 
