@@ -133,8 +133,10 @@ Note: Regex should be for validation.
 
 import re
 
+
 while True:
     user = input("Enter the user choice yes or no").lower()
+
 
     if user =='no':
         file = open('email_txt.txt','r')
