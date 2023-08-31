@@ -139,13 +139,13 @@ while True:
     user = input("Enter the user choice yes or no").lower()
 
 
-# If the user says it will show previous stored email id's
+#If the user says it will show previous stored email id's
 
     if user =='no':
         file = open('email_txt.txt','r')
         print(file.read())
 
-# Or else if the user says yes yu have to enter the valid email pattern and we should search that email id into entered email id
+#Or else if the user says yes yu have to enter the valid email pattern and we should search that email id into entered email id
 
 
     elif user =='yes':
@@ -153,7 +153,7 @@ while True:
         pattern = r"^[A-Za-z][A-Za-z0-9]+@[A-Za-z]+\.[a-zA-Z]+$"
         out = re.search(pattern,user)
 
-# If that pattern searched means we should write and group the email id and read that email.
+#If that pattern searched means we should write and group the email id and read that email.
 
 
         if out:
